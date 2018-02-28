@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Dosis', serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Dosis', serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.5em 0.25em;
+  min-width: 50px;
+}
+
+a:hover {
+  color: #ff4500;
+}
+
+.primary-header {
+  display: flex;
+  align-items: center;
+  background-color: #cee3f8;
+  padding: 1vh;
+}
+
+.primary-header h1 {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.primary-header span {
+  color: #ff4500;
+  font-size: 1.5em;
+  vertical-align: text-bottom;
+}
+
+.limmit-form {
+  padding: 1vw;
+}
+
+.limmit-form-option {
+  margin-bottom: 2vh;
+}
+
+.limmit-form select, .limmit-form input {
+  border: 0.1em solid #000000;
+  border-radius: 0.25em;
+  font-size: 0.75em;
+  vertical-align: text-bottom;
+}
+
+.limmit-form input {
+  text-align: center;
+}
+
+#subreddit {
+  width: 20vw;
+}
+
+#limit {
+  width: 55px;
+}
+
+.search-cont {
+  display: none;
+  padding: 1vw 20vw 1vw 1vw;
+  font-size: 0.8em;
+}
+
+.post {
+  background-color: #cee3f8;
+  border: 0.25em solid #ff4500;
+  border-radius: 0.5em;
+  padding: 1.5vw;
+  margin-bottom: 5vh;
+}
+
+.thumbnail-cont {
+  display: inline-block;
+	vertical-align: middle;
+  width: 10%;
+}
+
+.thumbnail {
+	width: 100%;
+	max-width: 140px;
+}
+
+.info {
+  display: inline-block;
+  padding: 0 2vw;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.post p {
+  margin: 2vh 0;
+}
+
+.back-to-top {
+  display: none;
+  font-size: 1.1em;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.back-to-top a {
+	color: #000000;
+  display: block;
+  font-weight: bold;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.back-to-top a:hover {
+  background-color: #ff4500;
+}
+
+footer {
+  background-color: #cee3f8;
+  padding: 1vh;
+  text-align: center;
+}
+
+footer p, footer a {
+  display: inline-block;
+}
+
+footer a {
+  color: #000000;
+  margin-left: 0.5vw;
+}
